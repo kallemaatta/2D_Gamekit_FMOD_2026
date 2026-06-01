@@ -245,6 +245,7 @@
 			<destination>{b5deb9d3-61a3-4571-927c-6517b1cafbba}</destination>
 			<destination>{10ecea88-9721-4187-bea8-1eaf9b5ff801}</destination>
 			<destination>{ca799ac5-c011-4a8b-869d-5dd44aa1b4f9}</destination>
+			<destination>{5eca9a1d-82c8-403d-82f5-5fd5560eb909}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{40f769f9-2ad7-4234-b94a-849ef8caaf35}" />
@@ -328,10 +329,15 @@
 	</object>
 	<object class="ThreeEQEffect" id="{ca799ac5-c011-4a8b-869d-5dd44aa1b4f9}">
 		<property name="lowGain">
-			<value>-10</value>
+			<value>-20</value>
 		</property>
 		<property name="highGain">
 			<value>1.5</value>
+		</property>
+	</object>
+	<object class="FlangerEffect" id="{5eca9a1d-82c8-403d-82f5-5fd5560eb909}">
+		<property name="rate">
+			<value>4</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{0247f90d-1d73-4cf9-a5ef-1745383f33b1}">
