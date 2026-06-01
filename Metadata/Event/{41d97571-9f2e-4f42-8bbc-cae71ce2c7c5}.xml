@@ -101,7 +101,7 @@
 			<value>0.063243288679491194</value>
 		</property>
 		<property name="pitch">
-			<value>-6</value>
+			<value>0.800000012</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{ddedaf7c-4d82-4259-ad93-2b477f375cb3}</destination>
@@ -160,9 +160,6 @@
 	<object class="RandomizerModulator" id="{ddedaf7c-4d82-4259-ad93-2b477f375cb3}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>pitch</value>
-		</property>
-		<property name="amount">
-			<value>14</value>
 		</property>
 	</object>
 	<object class="FadeCurve" id="{7fe674c4-6545-4646-aeaf-a5c3091d04f6}">
@@ -233,7 +230,7 @@
 			<value>-9</value>
 		</property>
 		<property name="highGain">
-			<value>-18</value>
+			<value>-2.5</value>
 		</property>
 	</object>
 </objects>

@@ -8,7 +8,7 @@
 			<value>EnemyMelee</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{3b5cd1ad-218f-44d3-905d-6d58458af206}</destination>
@@ -62,11 +62,18 @@
 	<object class="EventAutomatableProperties" id="{e495f533-e2d7-4ea6-829a-80e919bdb72a}" />
 	<object class="MarkerTrack" id="{28921514-fdb8-4be3-8c25-b7d72fb5ebbe}" />
 	<object class="GroupTrack" id="{34c4e13c-4061-440b-b1d5-fef6da18d234}">
+		<relationship name="modules">
+			<destination>{0b5b2e2c-5fdf-4504-a69b-d09a21f57c77}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{250c5990-48c1-4b1b-88d1-7e3ec62edb4a}</destination>
 		</relationship>
 	</object>
-	<object class="Timeline" id="{1d355525-78ef-41ae-86cc-899504bfc80a}" />
+	<object class="Timeline" id="{1d355525-78ef-41ae-86cc-899504bfc80a}">
+		<relationship name="modules">
+			<destination>{0b5b2e2c-5fdf-4504-a69b-d09a21f57c77}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerMaster" id="{dda0f0c0-83d7-4ab3-aa59-1920b83321b3}">
 		<relationship name="effectChain">
 			<destination>{1108ef36-a9b4-4862-8540-0064d5027605}</destination>
@@ -84,7 +91,27 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{da8ffaf4-691d-461a-9ebc-8d59f9f171ca}" />
+	<object class="SingleSound" id="{0b5b2e2c-5fdf-4504-a69b-d09a21f57c77}">
+		<property name="start">
+			<value>0.10000000000000001</value>
+		</property>
+		<property name="length">
+			<value>0.53779166666666667</value>
+		</property>
+		<property name="timelockedOffset">
+			<value>0.029999999999999846</value>
+		</property>
+		<relationship name="fadeOutCurve">
+			<destination>{a62eec15-c5d5-469a-9c40-a9c7a58c8c09}</destination>
+		</relationship>
+		<relationship name="audioFile">
+			<destination>{9581f66b-45a0-4dc5-b890-7544d09e6240}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerGroup" id="{250c5990-48c1-4b1b-88d1-7e3ec62edb4a}">
+		<property name="volume">
+			<value>2.5</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -105,12 +132,60 @@
 	</object>
 	<object class="MixerBusPanner" id="{d2007421-f358-43b9-b667-98a504fcc4d3}" />
 	<object class="MixerBusFader" id="{75e365fd-2111-468f-9f1a-f0919cf465b1}" />
+	<object class="FadeCurve" id="{a62eec15-c5d5-469a-9c40-a9c7a58c8c09}">
+		<relationship name="startPoint">
+			<destination>{b34bb43e-fa9f-4735-884e-bf446b4d9515}</destination>
+		</relationship>
+		<relationship name="endPoint">
+			<destination>{e9634d37-6575-4412-b0eb-a50b86b5868a}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{c8d9ba01-5cd6-4406-b49e-6fbadb9870c8}">
 		<relationship name="effects">
 			<destination>{f21c7ce5-dee3-40e6-b88e-5ac0b7a31353}</destination>
+			<destination>{38779658-5682-4156-8856-16550f022d24}</destination>
+			<destination>{48c79f4f-8a6c-4fe1-bc68-4d88f0774958}</destination>
+			<destination>{b4f7dd71-dcd0-4baf-9556-20981722fe6b}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{ca8cd2f8-7b73-4fee-a82d-fc688777b792}" />
 	<object class="MixerBusFader" id="{231c7bd1-cefc-4acb-a640-4b6fe4ee9801}" />
+	<object class="AutomationPoint" id="{b34bb43e-fa9f-4735-884e-bf446b4d9515}">
+		<property name="position">
+			<value>0.44999999999999946</value>
+		</property>
+		<property name="value">
+			<value>1</value>
+		</property>
+		<property name="curveShape">
+			<value>0.25471893</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{e9634d37-6575-4412-b0eb-a50b86b5868a}">
+		<property name="position">
+			<value>0.63779166666666587</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{f21c7ce5-dee3-40e6-b88e-5ac0b7a31353}" />
+	<object class="ThreeEQEffect" id="{38779658-5682-4156-8856-16550f022d24}">
+		<property name="midGain">
+			<value>-9</value>
+		</property>
+	</object>
+	<object class="DistortionEffect" id="{48c79f4f-8a6c-4fe1-bc68-4d88f0774958}">
+		<property name="level">
+			<value>0.194999993</value>
+		</property>
+	</object>
+	<object class="FlangerEffect" id="{b4f7dd71-dcd0-4baf-9556-20981722fe6b}">
+		<property name="rate">
+			<value>8.5</value>
+		</property>
+		<property name="mix">
+			<value>35</value>
+		</property>
+	</object>
 </objects>
