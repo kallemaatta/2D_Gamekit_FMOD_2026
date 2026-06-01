@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{c8658f8d-993e-47a1-86bc-49ad80a1eaa5}">
+	<object class="AudioFile" id="{b2e25d94-7126-4cd8-a21e-4e7be6158f09}">
 		<property name="assetPath">
-			<value>Foley/Pickup/Nycklar1_001.wav</value>
+			<value>VO/Spott_004.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
 		</property>
 		<property name="channelCount">
-			<value>4</value>
+			<value>2</value>
 		</property>
 		<property name="length">
-			<value>0.12772916666666667</value>
+			<value>1.067625</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{87141b2c-14ae-4bd0-b17b-6338c22d2609}</destination>

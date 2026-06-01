@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{24047060-e705-487a-902e-ef2f14c12b12}">
 		<property name="assetPath">
-			<value>Nycklar1_003.wav</value>
+			<value>Foley/Pickup/Nycklar1_003.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
