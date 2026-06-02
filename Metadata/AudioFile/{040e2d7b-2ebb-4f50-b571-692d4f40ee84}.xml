@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{7b406097-bb3e-4b7d-82b7-99038efbc7af}">
+	<object class="AudioFile" id="{040e2d7b-2ebb-4f50-b571-692d4f40ee84}">
 		<property name="assetPath">
-			<value>Foley/Träljud/Krasch Trä 2.WAV</value>
+			<value>VattenSplash_003.wav</value>
 		</property>
 		<property name="frequencyInKHz">
-			<value>44.0999985</value>
+			<value>48</value>
 		</property>
 		<property name="channelCount">
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>8.2750113378684809</value>
+			<value>0.55764583333333329</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{87141b2c-14ae-4bd0-b17b-6338c22d2609}</destination>

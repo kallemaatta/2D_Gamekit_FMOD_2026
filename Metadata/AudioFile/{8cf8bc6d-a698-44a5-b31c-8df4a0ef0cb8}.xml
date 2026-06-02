@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{8cf8bc6d-a698-44a5-b31c-8df4a0ef0cb8}">
 		<property name="assetPath">
-			<value>LoopPushBoxStoneDone.wav</value>
+			<value>Foley/DragLjud/LoopPushBoxStoneDone.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

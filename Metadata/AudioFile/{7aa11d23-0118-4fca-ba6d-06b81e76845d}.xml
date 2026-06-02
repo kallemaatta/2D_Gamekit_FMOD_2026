@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{7aa11d23-0118-4fca-ba6d-06b81e76845d}">
 		<property name="assetPath">
-			<value>851388__kvv_audio__ambforst_forest-spring-day-birds-singing-02_kvv-audio_free.wav</value>
+			<value>Foley/Placeholder AMB/851388__kvv_audio__ambforst_forest-spring-day-birds-singing-02_kvv-audio_free.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
