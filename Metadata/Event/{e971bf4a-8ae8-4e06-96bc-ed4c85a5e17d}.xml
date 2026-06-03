@@ -8,7 +8,7 @@
 			<value>AvatarSplash</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{2989da33-f43c-4ec2-851f-1f419b43470f}</destination>
@@ -163,6 +163,7 @@
 	<object class="MixerBusEffectChain" id="{8cb7f6e8-4afe-472b-9e39-1b9bec92b6a4}">
 		<relationship name="effects">
 			<destination>{c299208c-e4ac-4aab-84e0-b42b9e5c10e3}</destination>
+			<destination>{3651031d-93da-4093-808e-82fb12631525}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{0fc1f835-47d7-45df-980b-aee79678d732}" />
@@ -197,6 +198,7 @@
 	</object>
 	<object class="MixerBusPanner" id="{2a3c6ce4-0bd2-4f96-b7df-9116b30e31c0}" />
 	<object class="MixerBusFader" id="{c299208c-e4ac-4aab-84e0-b42b9e5c10e3}" />
+	<object class="SpatialiserEffect" id="{3651031d-93da-4093-808e-82fb12631525}" />
 	<object class="MixerBusFader" id="{86145925-937d-4036-8a58-1d4d24dd1e0b}" />
 	<object class="ThreeEQEffect" id="{dd2c3614-c9bb-445a-b633-2d659be5a452}">
 		<property name="lowGain">

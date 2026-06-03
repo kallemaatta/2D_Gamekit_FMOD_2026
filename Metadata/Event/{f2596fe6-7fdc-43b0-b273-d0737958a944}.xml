@@ -8,7 +8,7 @@
 			<value>EnemyRanged</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{3b5cd1ad-218f-44d3-905d-6d58458af206}</destination>
@@ -128,6 +128,7 @@
 	<object class="MixerBusEffectChain" id="{9d67ccca-dcaf-4117-bea9-0afb434d0aa2}">
 		<relationship name="effects">
 			<destination>{be657eed-ed4c-49be-8b3f-bacbb0419f98}</destination>
+			<destination>{a090f9a3-467c-48e0-8234-1ec894ae70f4}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{02c04dcf-1e11-4258-b29e-0c4f7ef45ed0}" />
@@ -150,6 +151,7 @@
 	</object>
 	<object class="MixerBusPanner" id="{ee03b7f5-6ea8-484f-90af-9a1e852ba055}" />
 	<object class="MixerBusFader" id="{be657eed-ed4c-49be-8b3f-bacbb0419f98}" />
+	<object class="SpatialiserEffect" id="{a090f9a3-467c-48e0-8234-1ec894ae70f4}" />
 	<object class="AutomationPoint" id="{df34678d-16a8-472f-9c07-b1167397dadc}">
 		<property name="position">
 			<value>0.11999999999999995</value>

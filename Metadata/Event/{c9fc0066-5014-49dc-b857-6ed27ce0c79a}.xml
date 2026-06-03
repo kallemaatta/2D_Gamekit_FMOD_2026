@@ -323,13 +323,16 @@
 	</object>
 	<object class="MixerBusFader" id="{b5deb9d3-61a3-4571-927c-6517b1cafbba}" />
 	<object class="DistortionEffect" id="{10ecea88-9721-4187-bea8-1eaf9b5ff801}">
+		<property name="level">
+			<value>0.699999988</value>
+		</property>
 		<relationship name="modulators">
 			<destination>{f234c38e-3945-4f55-8a69-2091c4b0ed8e}</destination>
 		</relationship>
 	</object>
 	<object class="ThreeEQEffect" id="{ca799ac5-c011-4a8b-869d-5dd44aa1b4f9}">
 		<property name="lowGain">
-			<value>-20</value>
+			<value>-9</value>
 		</property>
 		<property name="highGain">
 			<value>1.5</value>

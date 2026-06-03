@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{4893673a-5a69-49d1-b86f-5ee3f1c8915b}">
+		<property name="name">
+			<value>SteamStage</value>
+		</property>
+		<relationship name="folder">
+			<destination>{1245282f-64d2-49a5-a193-db803b82b2df}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{a8604218-f6bd-46c4-93f4-9d7b42f43930}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{a8604218-f6bd-46c4-93f4-9d7b42f43930}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

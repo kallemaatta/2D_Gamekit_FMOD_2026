@@ -8,7 +8,7 @@
 			<value>EnemyMelee</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{3b5cd1ad-218f-44d3-905d-6d58458af206}</destination>
@@ -172,6 +172,7 @@
 	<object class="MixerBusEffectChain" id="{1108ef36-a9b4-4862-8540-0064d5027605}">
 		<relationship name="effects">
 			<destination>{231c7bd1-cefc-4acb-a640-4b6fe4ee9801}</destination>
+			<destination>{d3b77d14-5810-4005-bd0b-4b9f4042ce86}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{d2007421-f358-43b9-b667-98a504fcc4d3}" />
@@ -212,6 +213,7 @@
 	</object>
 	<object class="MixerBusPanner" id="{c308cd8d-5e45-4a91-bd7e-524de86d8551}" />
 	<object class="MixerBusFader" id="{231c7bd1-cefc-4acb-a640-4b6fe4ee9801}" />
+	<object class="SpatialiserEffect" id="{d3b77d14-5810-4005-bd0b-4b9f4042ce86}" />
 	<object class="AutomationPoint" id="{b34bb43e-fa9f-4735-884e-bf446b4d9515}">
 		<property name="position">
 			<value>0.5699999999999994</value>
