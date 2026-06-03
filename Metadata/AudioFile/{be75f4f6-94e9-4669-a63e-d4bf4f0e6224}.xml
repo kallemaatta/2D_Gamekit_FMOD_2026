@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{be75f4f6-94e9-4669-a63e-d4bf4f0e6224}">
 		<property name="assetPath">
-			<value>StekandeVattenLoop.wav</value>
+			<value>Vatten/StekandeVattenLoop.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

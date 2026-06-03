@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{df7e7991-3268-4dda-80bd-43c5fb3c7bab}">
 		<property name="assetPath">
-			<value>ChomperCrunch_001.wav</value>
+			<value>VO/ChomperCrunch_001.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

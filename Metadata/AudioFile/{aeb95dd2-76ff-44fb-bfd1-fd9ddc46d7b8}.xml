@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{aeb95dd2-76ff-44fb-bfd1-fd9ddc46d7b8}">
 		<property name="assetPath">
-			<value>VattenSplash_001.wav</value>
+			<value>Vatten/VattenSplash_001.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
