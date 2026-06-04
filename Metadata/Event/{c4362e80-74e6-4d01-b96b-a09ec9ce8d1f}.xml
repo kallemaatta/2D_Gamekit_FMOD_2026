@@ -178,23 +178,26 @@
 	<object class="MixerBusFader" id="{32b5dcde-77ae-40fe-a122-bd34ecac81be}" />
 	<object class="ThreeEQEffect" id="{ab007d80-c562-4c93-9979-9a76a0c6e8c7}">
 		<property name="lowGain">
-			<value>-3</value>
+			<value>-10</value>
 		</property>
 		<property name="midGain">
 			<value>-6</value>
 		</property>
 		<property name="highGain">
-			<value>-5.5</value>
+			<value>-3.5</value>
 		</property>
 	</object>
 	<object class="FlangerEffect" id="{dcd4aa96-f170-4364-b930-d84f0f466e08}">
 		<property name="rate">
-			<value>0.899999976</value>
+			<value>0.099999994</value>
+		</property>
+		<property name="mix">
+			<value>73</value>
 		</property>
 	</object>
 	<object class="CompressorEffect" id="{0a8b009e-f44a-4172-aea2-d61d3bf6832d}">
 		<property name="threshold">
-			<value>-18</value>
+			<value>-20</value>
 		</property>
 		<property name="attackTime">
 			<value>52</value>

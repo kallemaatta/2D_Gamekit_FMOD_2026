@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{f895640a-4ba7-4d68-9d84-391cad539753}">
-		<property name="note" />
 		<property name="color">
 			<value>Green</value>
 		</property>
@@ -98,7 +97,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{28a97ac1-add1-4bc8-b455-2633cdb190fb}">
 		<property name="volume">
-			<value>-2</value>
+			<value>-3</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{1c4207e2-65cd-471c-91ff-b9049258dd2f}</destination>

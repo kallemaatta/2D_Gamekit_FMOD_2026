@@ -283,7 +283,7 @@
 			<value>-10</value>
 		</property>
 		<property name="highGain">
-			<value>-6.5</value>
+			<value>-10</value>
 		</property>
 	</object>
 	<object class="DistortionEffect" id="{c8db8d0c-0422-4371-9438-a95fcea2d023}">

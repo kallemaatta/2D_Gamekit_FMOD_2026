@@ -160,7 +160,7 @@
 	<object class="SpatialiserEffect" id="{a090f9a3-467c-48e0-8234-1ec894ae70f4}" />
 	<object class="AutomationPoint" id="{df34678d-16a8-472f-9c07-b1167397dadc}">
 		<property name="position">
-			<value>0.11999999999999995</value>
+			<value>0.19500000000000001</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -171,7 +171,7 @@
 	</object>
 	<object class="AutomationPoint" id="{0d65348b-0b7b-48f8-94a4-ce3ff51325ba}">
 		<property name="position">
-			<value>0.61863441885695436</value>
+			<value>0.61863441885695447</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -185,12 +185,15 @@
 	</object>
 	<object class="DistortionEffect" id="{80c907f5-ae07-4b26-974f-756d9dbe4d6d}">
 		<property name="level">
-			<value>0.199999988</value>
+			<value>0.314999998</value>
 		</property>
 	</object>
 	<object class="FlangerEffect" id="{649cee91-d924-4ba2-b6cb-5f576f018ffd}">
 		<property name="rate">
 			<value>7</value>
+		</property>
+		<property name="mix">
+			<value>70</value>
 		</property>
 	</object>
 </objects>

@@ -101,7 +101,7 @@
 	<object class="MixerBusPanner" id="{654a0f11-378b-49a3-a6ed-f467d93b76e7}" />
 	<object class="SingleSound" id="{4cfbcd0c-b1b4-479c-b2ad-e7d1d375a610}">
 		<property name="length">
-			<value>0.27500000000000002</value>
+			<value>0.14799999999999999</value>
 		</property>
 		<property name="timelockedOffset">
 			<value>0.063243288679491194</value>
@@ -124,7 +124,7 @@
 	</object>
 	<object class="SingleSound" id="{6b9e5e0a-7a6e-4d39-8112-84ce661097fc}">
 		<property name="start">
-			<value>0.16</value>
+			<value>0.014</value>
 		</property>
 		<property name="length">
 			<value>0.014999999999999999</value>
@@ -133,7 +133,7 @@
 			<value>0.49500000000000011</value>
 		</property>
 		<property name="pitch">
-			<value>-5</value>
+			<value>-6</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{e0fcbb9d-8850-4410-bca9-3b2221628631}</destination>
@@ -213,18 +213,18 @@
 	</object>
 	<object class="AutomationPoint" id="{7afc5d5f-6776-47c8-87c1-1db63831ba7b}">
 		<property name="position">
-			<value>0.17499999999999993</value>
+			<value>0.02</value>
 		</property>
 		<property name="value">
 			<value>1</value>
 		</property>
 		<property name="curveShape">
-			<value>-1.00000048</value>
+			<value>-0.120644897</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{245f2001-1ff8-451d-b09f-53a169230f53}">
 		<property name="position">
-			<value>0.27499999999999997</value>
+			<value>0.14799999999999999</value>
 		</property>
 		<property name="value">
 			<value>0</value>
