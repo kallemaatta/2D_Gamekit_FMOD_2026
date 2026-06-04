@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{decbe59e-b57a-4437-8217-327150b10f85}">
+		<property name="note">
+			<value>One-shot event using layered swoosh sounds. Also using surface parameter to decide what surface you jump from. 
+
+Surface Grass: Grass
+Surface Rock: Rock
+Surface Metal: Metal</value>
+		</property>
 		<property name="color">
 			<value>Green</value>
 		</property>
@@ -61,7 +68,7 @@
 			<destination>{249ecdb3-a614-4d54-9cc2-1d52dcae5441}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{ec6378ec-baee-4e28-9454-fe33db707fbb}</destination>
+			<destination>{4d2d59bc-1672-4cc5-a891-418f7320657d}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{ce100809-e184-47cc-b03a-a320e51e0093}" />

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{2595692b-125c-48a7-aa67-9f2fde1c4627}">
+		<property name="name">
+			<value>BossAttack</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{dba4a322-ec64-4ebd-a76d-cd68333a9ec2}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{cecdd94d-517e-47dc-ae4e-aaf02b790538}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{2d026f91-bb43-4072-a1fa-b03a20dd6c67}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{dba4a322-ec64-4ebd-a76d-cd68333a9ec2}">
+		<relationship name="effects">
+			<destination>{9b6bc89e-b4ee-418d-be07-feb3f9f88ced}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{cecdd94d-517e-47dc-ae4e-aaf02b790538}" />
+	<object class="MixerBusFader" id="{9b6bc89e-b4ee-418d-be07-feb3f9f88ced}" />
+</objects>

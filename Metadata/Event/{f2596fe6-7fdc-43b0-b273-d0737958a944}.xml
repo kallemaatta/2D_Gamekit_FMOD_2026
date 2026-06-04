@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{f2596fe6-7fdc-43b0-b273-d0737958a944}">
+		<property name="note">
+			<value>One-shot event using vocalizations to a spit sound for the spitter. Effects used are EQ, distortion and flanger.</value>
+		</property>
 		<property name="color">
 			<value>Cyan</value>
 		</property>
@@ -75,6 +78,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{428e4a0b-c519-4554-a8b5-1d13d1476245}">
+		<property name="volume">
+			<value>8</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{9d67ccca-dcaf-4117-bea9-0afb434d0aa2}</destination>
 		</relationship>
@@ -113,7 +119,7 @@
 			<value>8</value>
 		</property>
 		<property name="name">
-			<value>Spitter</value>
+			<value>Spit</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{2ebe3389-425d-4bbb-a89c-12fb08480703}</destination>

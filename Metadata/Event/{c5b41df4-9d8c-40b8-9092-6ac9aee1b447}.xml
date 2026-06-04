@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{c5b41df4-9d8c-40b8-9092-6ac9aee1b447}">
+		<property name="note">
+			<value>Debris, crash and hit sounds layered to create a one-shot event of a wall being destroyed.</value>
+		</property>
 		<property name="color">
 			<value>Red</value>
 		</property>
@@ -103,6 +106,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{1d3a250f-0fd7-4db9-84f4-3df0087d0445}">
+		<property name="volume">
+			<value>-2</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{6c410189-f776-4baa-ba6f-2fcd854e1fee}</destination>
 		</relationship>
@@ -231,7 +237,7 @@
 			<value>2.5</value>
 		</property>
 		<property name="name">
-			<value>KraschLjud</value>
+			<value>Crash</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{2a037580-9a31-4d46-b787-97fefd36dbc5}</destination>
@@ -343,13 +349,13 @@
 	<object class="MixerBusFader" id="{95288b79-2c2d-4146-8cf2-b41bc26fa8f3}" />
 	<object class="AutomationPoint" id="{80dcc35d-c57f-486a-8198-c73d17c569e1}">
 		<property name="position">
-			<value>1.4000000000000001</value>
+			<value>0.95999999999999996</value>
 		</property>
 		<property name="value">
 			<value>1</value>
 		</property>
 		<property name="curveShape">
-			<value>0.25471893</value>
+			<value>-0.34872219</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{d6ed74e3-7224-408a-8c58-586273220fbc}">

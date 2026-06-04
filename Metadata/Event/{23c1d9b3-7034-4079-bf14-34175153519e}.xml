@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{23c1d9b3-7034-4079-bf14-34175153519e}">
+		<property name="note" />
 		<property name="name">
 			<value>BossDie</value>
 		</property>
@@ -55,7 +56,7 @@
 			<destination>{fd2f34d3-acf0-4548-9ee0-7fc4473cd332}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{2d026f91-bb43-4072-a1fa-b03a20dd6c67}</destination>
+			<destination>{1cc2f3a7-0df2-48b2-9f89-bf42bd2af2c1}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{9b5b09c3-57b0-422f-89ea-2fec0b661304}" />
@@ -92,6 +93,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{d70da49a-9604-4fdc-a28e-2bdb33d9fd09}">
+		<property name="volume">
+			<value>3</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{5316bbeb-c88d-4f48-affd-d6a79aa46499}</destination>
 		</relationship>
@@ -141,10 +145,10 @@
 	</object>
 	<object class="SingleSound" id="{45f37ed7-61d8-48da-80e9-639881b5c5c9}">
 		<property name="start">
-			<value>3.4000000000000004</value>
+			<value>3.2000000000000002</value>
 		</property>
 		<property name="length">
-			<value>2.2999999999999998</value>
+			<value>2.4622888470356221</value>
 		</property>
 		<property name="pitch">
 			<value>-3.60000014</value>
@@ -178,13 +182,16 @@
 	</object>
 	<object class="SingleSound" id="{064b5a36-131e-494f-8f94-9765297daa8e}">
 		<property name="start">
-			<value>5.5</value>
+			<value>5.1000000000000005</value>
 		</property>
 		<property name="length">
-			<value>0.79494331065759627</value>
+			<value>1.4259701792817718</value>
 		</property>
 		<property name="timelockedOffset">
-			<value>0.5</value>
+			<value>0.37031604453489952</value>
+		</property>
+		<property name="pitch">
+			<value>-7.5</value>
 		</property>
 		<relationship name="fadeInCurve">
 			<destination>{86ec0d06-0e00-4995-a167-030d20e86f35}</destination>
@@ -304,7 +311,7 @@
 	<object class="MixerBusFader" id="{2a746ab8-dea8-466e-b418-06a16ab3bfa1}" />
 	<object class="AutomationPoint" id="{5f6c1431-c864-49b7-9964-a5e7457958c6}">
 		<property name="position">
-			<value>3.4000000000000004</value>
+			<value>3.2000000000000002</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -315,7 +322,7 @@
 	</object>
 	<object class="AutomationPoint" id="{3dc4e14c-9aae-4d28-973f-46c217e495df}">
 		<property name="position">
-			<value>3.5</value>
+			<value>3.2999999999999998</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -323,7 +330,7 @@
 	</object>
 	<object class="AutomationPoint" id="{60db9511-bb28-4d38-a8ac-2c1934472ce0}">
 		<property name="position">
-			<value>5.5</value>
+			<value>5.462288847035623</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -334,7 +341,7 @@
 	</object>
 	<object class="AutomationPoint" id="{2061218d-6fdd-4323-a497-6ebe101de7db}">
 		<property name="position">
-			<value>5.7000000000000002</value>
+			<value>5.6622888470356223</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -353,7 +360,7 @@
 	</object>
 	<object class="AutomationPoint" id="{c67700be-e75e-47f0-a330-0d51ffac7f7b}">
 		<property name="position">
-			<value>5.5</value>
+			<value>5.1000000000000005</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -364,7 +371,7 @@
 	</object>
 	<object class="AutomationPoint" id="{0d80919e-7abc-4563-aa53-a25132b20b5b}">
 		<property name="position">
-			<value>5.7000000000000002</value>
+			<value>5.3000000000000007</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -372,7 +379,7 @@
 	</object>
 	<object class="AutomationPoint" id="{a8725bf7-bd23-4c61-9db6-b2c866d9e64e}">
 		<property name="position">
-			<value>6.2000000000000002</value>
+			<value>6.4310268686241763</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -383,7 +390,7 @@
 	</object>
 	<object class="AutomationPoint" id="{ab6398c7-863b-48da-bc8e-852c0de2a18e}">
 		<property name="position">
-			<value>6.2949433106575965</value>
+			<value>6.5259701792817726</value>
 		</property>
 		<property name="value">
 			<value>0</value>

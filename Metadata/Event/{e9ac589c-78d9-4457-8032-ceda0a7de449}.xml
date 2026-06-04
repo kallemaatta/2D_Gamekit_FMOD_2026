@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{e9ac589c-78d9-4457-8032-ceda0a7de449}">
+		<property name="note">
+			<value>One-shot event of a switch using a synth.</value>
+		</property>
 		<property name="color">
 			<value>Red</value>
 		</property>
@@ -75,6 +78,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{5321c8b2-163f-4ff5-b6c7-360698024f35}">
+		<property name="volume">
+			<value>-7</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{5886b0e2-96b0-42d3-942a-7216d71c27be}</destination>
 		</relationship>
@@ -101,7 +107,7 @@
 			<value>-19</value>
 		</property>
 		<property name="name">
-			<value>Audio 1</value>
+			<value>Synth</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{7c680b63-b1dd-4716-aa82-c313aa56a68d}</destination>

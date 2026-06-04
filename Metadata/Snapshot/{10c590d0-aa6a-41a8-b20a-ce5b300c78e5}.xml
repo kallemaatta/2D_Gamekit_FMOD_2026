@@ -21,9 +21,12 @@
 		</relationship>
 		<relationship name="snapshotProperties">
 			<destination>{7e174259-d7c6-455f-a429-802411fdf3e5}</destination>
+			<destination>{b7fa3943-c0d1-413c-affb-8391af84d48a}</destination>
+			<destination>{328f417b-1a71-4f6d-a445-04cdec5a6537}</destination>
 		</relationship>
 		<relationship name="snapshotTracks">
 			<destination>{d00690c6-9487-480f-a0b7-9b4e896a5325}</destination>
+			<destination>{438b43b5-ceae-4460-a71e-a51757a35dc7}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{1901d7d7-738b-4cc8-86f5-6d9450b8b192}" />
@@ -35,15 +38,42 @@
 			<value>level</value>
 		</property>
 		<property name="value">
-			<value>-5</value>
+			<value>-17</value>
 		</property>
 		<relationship name="automatableObject">
 			<destination>{d99182c2-4bad-40b0-b754-0e2b4b4e7de3}</destination>
 		</relationship>
 	</object>
+	<object class="SnapshotProperty" id="{b7fa3943-c0d1-413c-affb-8391af84d48a}">
+		<property name="propertyName">
+			<value>midGain</value>
+		</property>
+		<property name="value">
+			<value>-18</value>
+		</property>
+		<relationship name="automatableObject">
+			<destination>{4f9a7688-52ad-4c2c-aa9a-f51fea14dc80}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotProperty" id="{328f417b-1a71-4f6d-a445-04cdec5a6537}">
+		<property name="propertyName">
+			<value>highGain</value>
+		</property>
+		<property name="value">
+			<value>-17.5</value>
+		</property>
+		<relationship name="automatableObject">
+			<destination>{4f9a7688-52ad-4c2c-aa9a-f51fea14dc80}</destination>
+		</relationship>
+	</object>
 	<object class="SnapshotTrack" id="{d00690c6-9487-480f-a0b7-9b4e896a5325}">
 		<relationship name="mixerStrip">
 			<destination>{cb0db3a4-aebc-4383-b4ac-61861216d661}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotTrack" id="{438b43b5-ceae-4460-a71e-a51757a35dc7}">
+		<relationship name="mixerStrip">
+			<destination>{55d8b79f-6487-43cf-b82f-5c244ce1c84e}</destination>
 		</relationship>
 	</object>
 </objects>

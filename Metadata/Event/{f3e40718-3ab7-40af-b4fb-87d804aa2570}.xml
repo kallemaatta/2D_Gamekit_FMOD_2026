@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{f3e40718-3ab7-40af-b4fb-87d804aa2570}">
+		<property name="note">
+			<value>Enemy walk sound created by bamboo hits in a scatter instrument to create randomness.</value>
+		</property>
 		<property name="color">
 			<value>Cyan</value>
 		</property>
@@ -75,6 +78,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{25d0fc47-76e8-45ca-8018-b171a042642c}">
+		<property name="volume">
+			<value>-9</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{533bdd3b-e95a-4806-9d44-a9320670b6a0}</destination>
 		</relationship>

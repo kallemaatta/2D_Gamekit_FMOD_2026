@@ -102,6 +102,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{646ddd18-dfa6-4c20-a142-cc15495e42e3}">
+		<property name="volume">
+			<value>-6.5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{0c75bf9f-b4e0-43dc-8668-43290e6b39d0}</destination>
 		</relationship>
@@ -168,7 +171,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{5a1fa968-92a4-4ea0-b627-7c8bdd62de47}">
 		<property name="name">
-			<value>Audio 1</value>
+			<value>StonePushLoop</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{f2cd7693-67b4-4c3e-9e04-a6ea092e4ebf}</destination>

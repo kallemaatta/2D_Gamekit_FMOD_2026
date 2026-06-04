@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{3a1941ab-fdb2-4e42-b059-07adef266695}">
+		<property name="note">
+			<value>Water drops and rock debris in seperate scatter instruments. Loops with the help of loop regions. Quite high spawn interval between sounds.</value>
+		</property>
 		<property name="color">
 			<value>Blue</value>
 		</property>
@@ -57,7 +60,7 @@
 			<destination>{1bac2371-745e-49ae-bd43-84f236c48318}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{5e20bbbb-823e-4841-b1d1-2e71beb20142}</destination>
+			<destination>{4957e8ca-5054-40bd-a9f8-fd9122ca302c}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{9b18c921-c055-4c3b-bd49-fe82e58914d9}" />

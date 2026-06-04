@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{bf3b2d3d-f60d-44a3-8aa1-e4ded2a6b587}">
+		<property name="note">
+			<value>A key and windchime sound used to create a one-shot sound of a key pickup.</value>
+		</property>
 		<property name="color">
 			<value>Red</value>
 		</property>
@@ -85,6 +88,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{46c1ae30-e7f9-46a5-9bb3-66916ac18310}">
+		<property name="volume">
+			<value>1</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{a348910b-e747-4dec-b934-8b360c8c09e9}</destination>
 		</relationship>
@@ -106,7 +112,7 @@
 			<value>0.55000000000000004</value>
 		</property>
 		<property name="pitch">
-			<value>6</value>
+			<value>3.60000014</value>
 		</property>
 		<relationship name="fadeInCurve">
 			<destination>{896cd3c2-04aa-4b76-a5c2-be3b85207aef}</destination>
@@ -157,7 +163,7 @@
 			<value>6</value>
 		</property>
 		<property name="name">
-			<value>Nyckel</value>
+			<value>Key</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{b0b96323-fbc2-4a5b-b823-e5cd46dfcf51}</destination>

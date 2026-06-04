@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{55d8b79f-6487-43cf-b82f-5c244ce1c84e}">
+		<property name="color">
+			<value>Blue</value>
+		</property>
+		<property name="name">
+			<value>AmbianceWeather</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{5e216647-595e-4750-8473-5115dcf0ea8e}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{59fc8d43-1817-45dd-b366-89c53882628e}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{5e20bbbb-823e-4841-b1d1-2e71beb20142}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{5e216647-595e-4750-8473-5115dcf0ea8e}">
+		<relationship name="effects">
+			<destination>{ddf14fc6-5949-4172-b7d2-5d2d55d0db45}</destination>
+			<destination>{4f9a7688-52ad-4c2c-aa9a-f51fea14dc80}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{59fc8d43-1817-45dd-b366-89c53882628e}" />
+	<object class="MixerBusFader" id="{ddf14fc6-5949-4172-b7d2-5d2d55d0db45}" />
+	<object class="ThreeEQEffect" id="{4f9a7688-52ad-4c2c-aa9a-f51fea14dc80}" />
+</objects>

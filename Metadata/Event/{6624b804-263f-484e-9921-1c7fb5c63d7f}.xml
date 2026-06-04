@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{6624b804-263f-484e-9921-1c7fb5c63d7f}">
+		<property name="note">
+			<value>Multi-Instruments of a stone and a pen to create the UI button sound as a one-shot.</value>
+		</property>
 		<property name="color">
 			<value>Yellow</value>
 		</property>
@@ -126,7 +129,7 @@
 			<value>1.5</value>
 		</property>
 		<property name="name">
-			<value>Stenklick</value>
+			<value>Stone</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{95f30480-e33a-462f-86a6-e16830151249}</destination>
@@ -156,7 +159,7 @@
 			<value>-5.5</value>
 		</property>
 		<property name="name">
-			<value>Pennklick</value>
+			<value>Pen</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{655874bf-172c-420d-86bf-cc45f029c816}</destination>

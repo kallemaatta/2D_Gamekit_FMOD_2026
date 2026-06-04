@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{03e0751b-f62a-4123-a0ad-1fd702248ffa}">
+		<property name="note">
+			<value>One-shot event using vocalizations to create a chomper melee attack sound. Effects used are EQ, distortion and flanger.</value>
+		</property>
 		<property name="color">
 			<value>Cyan</value>
 		</property>
@@ -85,6 +88,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{dda0f0c0-83d7-4ab3-aa59-1920b83321b3}">
+		<property name="volume">
+			<value>2</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{1108ef36-a9b4-4862-8540-0064d5027605}</destination>
 		</relationship>
@@ -123,7 +129,7 @@
 			<value>4</value>
 		</property>
 		<property name="name">
-			<value>Bett</value>
+			<value>Bite</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{c8d9ba01-5cd6-4406-b49e-6fbadb9870c8}</destination>

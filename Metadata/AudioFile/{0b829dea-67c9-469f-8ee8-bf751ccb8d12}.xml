@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{8b2d3604-b26b-43a3-ac5f-e2d182c17ddc}">
+	<object class="AudioFile" id="{0b829dea-67c9-469f-8ee8-bf751ccb8d12}">
 		<property name="assetPath">
-			<value>Foley/Stenljud/GrusAmbiance_004.wav</value>
+			<value>Birds_003.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
@@ -11,7 +11,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>5.6598125000000001</value>
+			<value>2.6792708333333333</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{87141b2c-14ae-4bd0-b17b-6338c22d2609}</destination>

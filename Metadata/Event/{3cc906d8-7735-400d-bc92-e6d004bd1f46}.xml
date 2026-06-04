@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{3cc906d8-7735-400d-bc92-e6d004bd1f46}">
+		<property name="note">
+			<value>One-shot event layering stone and vocalization to create a death sound. Distortion and flanger is used</value>
+		</property>
 		<property name="color">
 			<value>Cyan</value>
 		</property>
@@ -85,6 +88,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{b078bc6c-d88f-4f4e-b0e0-fce6046d344d}">
+		<property name="volume">
+			<value>0.5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{a29fffe1-487a-4f02-a562-cff7fddb3bca}</destination>
 		</relationship>
@@ -123,7 +129,7 @@
 			<value>-19.5</value>
 		</property>
 		<property name="name">
-			<value>Sten</value>
+			<value>Stone</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{e849b7f6-004c-493b-bf8f-34091e9aedfd}</destination>

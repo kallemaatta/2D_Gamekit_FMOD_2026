@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{d1cf6514-d35d-4eef-88fe-b699b612d1cf}">
+		<property name="note">
+			<value>Decides wind strength using a continuous parameter.
+
+WeakWind: 0-0.3
+MediumWind: 0.2-0.55
+StrongWind: 0.45-1</value>
+		</property>
 		<property name="color">
 			<value>Blue</value>
 		</property>
@@ -59,7 +66,7 @@
 			<destination>{dfc33d3f-f2ef-499c-9805-f7159b7568c2}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{5e20bbbb-823e-4841-b1d1-2e71beb20142}</destination>
+			<destination>{55d8b79f-6487-43cf-b82f-5c244ce1c84e}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{56cf7088-40e6-41e3-bf26-e5d5045cb2ac}" />
@@ -86,6 +93,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{0c42c0b4-d5c4-470c-a2cb-418bf97b4085}">
+		<property name="volume">
+			<value>3.5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{e8f37e0a-11e0-409e-b10f-42dea3634d9f}</destination>
 		</relationship>
@@ -164,7 +174,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{766b7e69-69ed-4042-8ac2-b3e45c3089d5}">
 		<property name="name">
-			<value>Audio 1</value>
+			<value>Wind</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{6c8cad6d-bdc6-4b4f-bac7-7ee9c92ba811}</destination>

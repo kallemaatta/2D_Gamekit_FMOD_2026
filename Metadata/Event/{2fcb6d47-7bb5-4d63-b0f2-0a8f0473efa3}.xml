@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{2fcb6d47-7bb5-4d63-b0f2-0a8f0473efa3}">
+		<property name="note">
+			<value>Wood, Stone and a synth sound layered to create a health pickup sound.</value>
+		</property>
 		<property name="color">
 			<value>Red</value>
 		</property>
@@ -95,6 +98,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{3597cf85-5b18-42d2-b25f-5b7c705b57f7}">
+		<property name="volume">
+			<value>2</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{78ca9ddf-e902-49ea-b6a2-a2fc942305ad}</destination>
 		</relationship>
@@ -133,7 +139,7 @@
 			<value>-16.5</value>
 		</property>
 		<property name="name">
-			<value>Trä</value>
+			<value>Wood</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{b128c1eb-3adc-4539-866f-d0003ad85e01}</destination>
@@ -161,7 +167,7 @@
 			<value>-12.5</value>
 		</property>
 		<property name="name">
-			<value>Sten</value>
+			<value>Stone</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{3c1d2505-0808-419d-838b-91f4a9160b8a}</destination>
@@ -195,7 +201,7 @@
 			<value>5</value>
 		</property>
 		<property name="name">
-			<value>HealthUp</value>
+			<value>Synth</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{64c5b01c-5101-4694-bafe-a3c95daf49d7}</destination>

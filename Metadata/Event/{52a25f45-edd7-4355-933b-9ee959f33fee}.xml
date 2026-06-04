@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{52a25f45-edd7-4355-933b-9ee959f33fee}">
+		<property name="note">
+			<value>One-shot event using a synth sound to create a lasershot. Using randomized pitch to create variation.</value>
+		</property>
 		<property name="color">
 			<value>Green</value>
 		</property>
@@ -56,7 +59,7 @@
 			<destination>{2aaf4920-2979-40ab-a24b-f88c81e2e435}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{ec6378ec-baee-4e28-9454-fe33db707fbb}</destination>
+			<destination>{5a348504-16ae-4f60-8192-abfce4a8e13d}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{a481835f-e812-42dc-8193-1e0b909b53c8}" />
@@ -75,6 +78,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{537c3e8d-1af1-4ab2-a0d4-14876dfb638f}">
+		<property name="volume">
+			<value>-6</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{8830cd8d-ca19-42b7-876a-fb8f190416b5}</destination>
 		</relationship>

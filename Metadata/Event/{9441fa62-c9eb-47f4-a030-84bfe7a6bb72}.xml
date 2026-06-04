@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{9441fa62-c9eb-47f4-a030-84bfe7a6bb72}">
+		<property name="note">
+			<value>Stone, Wood and Debris layered in a one-shot event to create a heavy door opening.</value>
+		</property>
 		<property name="color">
 			<value>Red</value>
 		</property>
@@ -105,6 +108,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{a12f7804-db58-47a0-aeae-a2faaaa96265}">
+		<property name="volume">
+			<value>1</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{a347e6b9-bb91-48f8-95da-17d6cd179e6b}</destination>
 		</relationship>
@@ -140,7 +146,7 @@
 			<value>-3</value>
 		</property>
 		<property name="name">
-			<value>Sten</value>
+			<value>Stone</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{e9497731-8052-4436-8abf-217034270ea0}</destination>
@@ -231,7 +237,7 @@
 			<value>-1</value>
 		</property>
 		<property name="name">
-			<value>Trä</value>
+			<value>Wood</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{d75543e9-7274-4fde-8ee6-087dde930996}</destination>

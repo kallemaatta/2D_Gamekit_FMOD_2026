@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{e971bf4a-8ae8-4e06-96bc-ed4c85a5e17d}">
+		<property name="note">
+			<value>One-shot event layering a splash and frying water to reate the sound of a water/acid splash.</value>
+		</property>
 		<property name="color">
 			<value>Green</value>
 		</property>
@@ -57,7 +60,7 @@
 			<destination>{2d1040a2-2b12-4969-9ff5-0ddaea185537}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{ec6378ec-baee-4e28-9454-fe33db707fbb}</destination>
+			<destination>{3ba6eabb-5596-4ab9-ac14-784e2609f742}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{efcfa112-8c73-4b48-9bc2-065730acbadf}" />
@@ -85,6 +88,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{e9187cd4-9e75-4ace-9815-853f60253693}">
+		<property name="volume">
+			<value>-3</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{8cb7f6e8-4afe-472b-9e39-1b9bec92b6a4}</destination>
 		</relationship>
@@ -148,7 +154,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{b64986f8-08eb-44e4-9394-dce18d532716}">
 		<property name="name">
-			<value>Stek</value>
+			<value>Frying</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{0c7e9fee-a189-4698-a52f-aa3e23076df2}</destination>

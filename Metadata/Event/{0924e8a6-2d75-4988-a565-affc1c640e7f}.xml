@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{0924e8a6-2d75-4988-a565-affc1c640e7f}">
+		<property name="note">
+			<value>Boiling water looping with the help of a loop region.</value>
+		</property>
 		<property name="color">
 			<value>Blue</value>
 		</property>
@@ -56,7 +59,7 @@
 			<destination>{e6c9da8c-788e-4a66-b396-e37f74754184}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{5e20bbbb-823e-4841-b1d1-2e71beb20142}</destination>
+			<destination>{4ba30630-4694-478b-bedf-2c07f9f27bfc}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{a6cac924-af65-4e1b-8768-f1381cfdc0b9}" />
@@ -78,6 +81,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{a5e39b13-f5d6-4307-a2d5-195554da1fd6}">
+		<property name="volume">
+			<value>-7.5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{25046f48-df4f-4f81-9f80-3c2797a5f354}</destination>
 		</relationship>
@@ -122,7 +128,7 @@
 			<value>4</value>
 		</property>
 		<property name="name">
-			<value>KokandeVatten</value>
+			<value>BoilingWater</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{4dc406da-4009-4e31-8aee-c68065fc8296}</destination>

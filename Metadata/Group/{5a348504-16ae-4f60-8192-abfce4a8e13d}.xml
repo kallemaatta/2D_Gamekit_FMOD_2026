@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{5a348504-16ae-4f60-8192-abfce4a8e13d}">
+		<property name="color">
+			<value>Green</value>
+		</property>
+		<property name="name">
+			<value>AvatarAttack</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{09db8b22-a345-4d3b-a16c-471a847f18b1}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{03335058-d580-45fd-91fe-80f7dc26be38}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{ec6378ec-baee-4e28-9454-fe33db707fbb}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{09db8b22-a345-4d3b-a16c-471a847f18b1}">
+		<relationship name="effects">
+			<destination>{ca6e594a-c7a8-4f46-b58e-95ec4b8b3599}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{03335058-d580-45fd-91fe-80f7dc26be38}" />
+	<object class="MixerBusFader" id="{ca6e594a-c7a8-4f46-b58e-95ec4b8b3599}" />
+</objects>

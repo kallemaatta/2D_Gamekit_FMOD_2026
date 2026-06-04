@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{c9fc0066-5014-49dc-b857-6ed27ce0c79a}">
+		<property name="note">
+			<value>One-shot event using layered swoosh sounds to create a melee attack. Using randomized pitch to create variation.</value>
+		</property>
 		<property name="color">
 			<value>Green</value>
 		</property>
@@ -57,7 +60,7 @@
 			<destination>{61bd7810-0a76-460c-a3d4-27953a73540f}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{ec6378ec-baee-4e28-9454-fe33db707fbb}</destination>
+			<destination>{5a348504-16ae-4f60-8192-abfce4a8e13d}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{5cb723a6-fd7f-4891-8fc9-011df949afc4}" />
@@ -89,7 +92,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{ab1af685-8a74-47f9-9c24-033c6187ba4a}">
 		<property name="volume">
-			<value>-3</value>
+			<value>-6</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{028a2e03-093c-465b-80fd-e252e676adab}</destination>
@@ -140,7 +143,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{8dc534e5-0cb3-4a51-a62c-d4bf59c4fd87}">
 		<property name="name">
-			<value>BambuWoosh</value>
+			<value>BambuSwoosh</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{2f6d4817-ec54-4301-87ea-08a4e223cf18}</destination>
@@ -174,7 +177,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{be701819-bbec-47bc-9555-dcaec6f1ff22}">
 		<property name="name">
-			<value>ReversedWoosh</value>
+			<value>ReversedSwoosh</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{7470c1be-8e0d-4349-b389-112bd2a90539}</destination>

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{3ec9aa88-3248-4382-ad51-34e1272aa713}">
+		<property name="note">
+			<value>Controls foliage sounds with the help of a foliage filter.</value>
+		</property>
 		<property name="color">
 			<value>Blue</value>
 		</property>
@@ -59,7 +62,7 @@
 			<destination>{7af20c32-5567-4588-bd03-4786bc2b3c1f}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{5e20bbbb-823e-4841-b1d1-2e71beb20142}</destination>
+			<destination>{4ba30630-4694-478b-bedf-2c07f9f27bfc}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{2bf5541b-7111-4519-b4e8-876f773f5556}" />
@@ -89,6 +92,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{64bc55f5-63fe-4bd5-a3eb-d8a7e40d5d61}">
+		<property name="volume">
+			<value>-4</value>
+		</property>
 		<property name="overridingInputFormat">
 			<value>0</value>
 		</property>
@@ -123,7 +129,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{d2c13c9f-471a-4034-b192-f5f1fe301381}">
 		<property name="name">
-			<value>Audio 1</value>
+			<value>Foliage</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{27ab529b-b8c7-4380-bd34-26c20137189a}</destination>

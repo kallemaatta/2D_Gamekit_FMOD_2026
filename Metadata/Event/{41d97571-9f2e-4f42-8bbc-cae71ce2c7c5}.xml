@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{41d97571-9f2e-4f42-8bbc-cae71ce2c7c5}">
+		<property name="note">
+			<value>One-shot event using layered stone to create the sound of a pressure pad.</value>
+		</property>
 		<property name="color">
 			<value>Red</value>
 		</property>
@@ -77,6 +80,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{5a75247f-712f-46a9-8a8d-d894ffafbc0a}">
+		<property name="volume">
+			<value>1</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{3c322cca-78f4-493e-b9c8-15cc21475dbb}</destination>
 		</relationship>
@@ -138,7 +144,7 @@
 			<value>-4</value>
 		</property>
 		<property name="name">
-			<value>DragljudNed</value>
+			<value>Stone</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{6edc1754-8aeb-4404-9fe6-f44bab1168f2}</destination>
