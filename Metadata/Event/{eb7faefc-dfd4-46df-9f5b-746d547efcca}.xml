@@ -53,7 +53,7 @@
 			<destination>{77f778f7-e3e0-40e5-8cae-615df5723c19}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{0d701ae7-c4e0-424c-aa96-fccddccd5f44}</destination>
+			<destination>{2d026f91-bb43-4072-a1fa-b03a20dd6c67}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{93a446af-ab27-4ec0-889e-8791d5a369ee}" />
@@ -90,10 +90,10 @@
 	<object class="MixerBusPanner" id="{77f778f7-e3e0-40e5-8cae-615df5723c19}" />
 	<object class="SingleSound" id="{1bf40145-6976-4773-8ec9-ecc7b9891300}">
 		<property name="length">
-			<value>0.32000000000000001</value>
+			<value>0.30499999999999999</value>
 		</property>
 		<property name="timelockedOffset">
-			<value>0.33000000000000007</value>
+			<value>0.34500000000000008</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{065a7ce3-3b13-43b6-829d-a63c45cffa24}</destination>
@@ -135,7 +135,7 @@
 			<value>pitch</value>
 		</property>
 		<property name="amount">
-			<value>5</value>
+			<value>12.5</value>
 		</property>
 	</object>
 	<object class="FadeCurve" id="{ff2ec0b8-2b4f-4c29-848c-8ec47c7ce7ce}">
@@ -159,7 +159,7 @@
 	<object class="SpatialiserEffect" id="{0f6f7a31-2a03-4f7f-a2d8-8f243bc649b3}" />
 	<object class="AutomationPoint" id="{4385b611-f3d3-4bf2-93ce-a5dfe5df7ad9}">
 		<property name="position">
-			<value>0.14999999999999999</value>
+			<value>0.13499999999999998</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -170,7 +170,7 @@
 	</object>
 	<object class="AutomationPoint" id="{cd5ef41b-fcb8-4ce8-a697-0d2211ffeafe}">
 		<property name="position">
-			<value>0.32000000000000001</value>
+			<value>0.30499999999999999</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -178,18 +178,21 @@
 	</object>
 	<object class="MixerBusFader" id="{793df838-ea8b-4fd3-af97-2a7f182af77d}" />
 	<object class="ThreeEQEffect" id="{875b6de7-29a3-4c3b-ac53-2e3335ed4f35}">
+		<property name="midGain">
+			<value>-9</value>
+		</property>
 		<property name="highGain">
-			<value>-5</value>
+			<value>-9</value>
 		</property>
 	</object>
 	<object class="DistortionEffect" id="{e710ff03-b249-4b1c-a4b8-5f4c9feea58b}">
 		<property name="level">
-			<value>0.0949999988</value>
+			<value>0.25</value>
 		</property>
 	</object>
 	<object class="FlangerEffect" id="{c93a98ca-d9dc-4eef-bbef-939a770a77f2}">
 		<property name="rate">
-			<value>0.5</value>
+			<value>0.839999974</value>
 		</property>
 	</object>
 </objects>
