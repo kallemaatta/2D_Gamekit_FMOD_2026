@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{23a04bdf-4cb0-482e-a49f-93afaefb013b}">
+		<property name="note">
+			<value>One-shot event using a synthesizer to create the sound of electricity.</value>
+		</property>
+		<property name="color">
+			<value>Purple Light 1</value>
+		</property>
 		<property name="name">
 			<value>BossElectricity</value>
 		</property>

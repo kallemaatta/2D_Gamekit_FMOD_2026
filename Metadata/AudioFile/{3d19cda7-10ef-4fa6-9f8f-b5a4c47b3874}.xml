@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{3d19cda7-10ef-4fa6-9f8f-b5a4c47b3874}">
 		<property name="assetPath">
-			<value>Foley/DragLjud/EndPushBox.wav</value>
+			<value>Foley/DragingSounds/EndPushBox.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

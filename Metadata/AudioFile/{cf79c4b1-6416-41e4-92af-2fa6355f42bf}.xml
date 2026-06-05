@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{cf79c4b1-6416-41e4-92af-2fa6355f42bf}">
 		<property name="assetPath">
-			<value>Foley/Pennklick/Pennklick_003.wav</value>
+			<value>Foley/Click/Pennklick_003.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

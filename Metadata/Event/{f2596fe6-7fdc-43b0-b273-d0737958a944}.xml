@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{f2596fe6-7fdc-43b0-b273-d0737958a944}">
 		<property name="note">
-			<value>One-shot event using vocalizations to a spit sound for the spitter. Effects used are EQ, distortion and flanger.</value>
+			<value>One-shot event using vocalizations to a spit sound for the spitter. Effects used are EQ, distortion and flanger. Randomization for variation.</value>
 		</property>
 		<property name="color">
 			<value>Cyan</value>
@@ -107,6 +107,9 @@
 		<property name="pitch">
 			<value>2</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{90078814-fd14-4f66-8d1d-02278852f977}</destination>
+		</relationship>
 		<relationship name="fadeOutCurve">
 			<destination>{2c06d8f6-2425-4add-8606-54216ecf3da6}</destination>
 		</relationship>
@@ -139,6 +142,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{02c04dcf-1e11-4258-b29e-0c4f7ef45ed0}" />
 	<object class="MixerBusFader" id="{eb5b475d-f40f-4ebf-b814-2c19270e742a}" />
+	<object class="RandomizerModulator" id="{90078814-fd14-4f66-8d1d-02278852f977}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+		<property name="amount">
+			<value>10.5</value>
+		</property>
+	</object>
 	<object class="FadeCurve" id="{2c06d8f6-2425-4add-8606-54216ecf3da6}">
 		<relationship name="startPoint">
 			<destination>{df34678d-16a8-472f-9c07-b1167397dadc}</destination>

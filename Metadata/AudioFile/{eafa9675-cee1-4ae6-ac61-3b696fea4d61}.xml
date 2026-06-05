@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{eafa9675-cee1-4ae6-ac61-3b696fea4d61}">
 		<property name="assetPath">
-			<value>Foley/Träljud/Krasch Trä 3.WAV</value>
+			<value>Foley/Wood/Krasch Trä 3.WAV</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

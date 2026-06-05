@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{02143477-fed0-4d48-816e-9cf7e233571b}">
 		<property name="assetPath">
-			<value>Foley/Stenljud/GrusAmbiance_005.wav</value>
+			<value>Foley/Stone/GrusAmbiance_005.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

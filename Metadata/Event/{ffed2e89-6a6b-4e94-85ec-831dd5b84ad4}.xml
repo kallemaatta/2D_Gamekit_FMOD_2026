@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{ffed2e89-6a6b-4e94-85ec-831dd5b84ad4}">
+		<property name="note">
+			<value>A looping event using destination markers and loop regions to create a looping sound of a box being pushed.
+
+End: 0 = EarlyEnd
+End: 1= EarlyEnd </value>
+		</property>
 		<property name="color">
 			<value>Red</value>
 		</property>

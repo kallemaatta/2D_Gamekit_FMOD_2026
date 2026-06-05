@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{f82f8331-1856-43c3-828f-2607ade0272f}">
 		<property name="assetPath">
-			<value>Elias+KalleLjud/GlassKrasch_004.wav</value>
+			<value>Foley/Glass/GlassKrasch_004.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

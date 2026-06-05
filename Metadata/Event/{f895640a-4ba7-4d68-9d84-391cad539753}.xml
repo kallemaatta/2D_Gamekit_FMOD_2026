@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{f895640a-4ba7-4d68-9d84-391cad539753}">
+		<property name="note">
+			<value>A one-shot event using multi instruments of surface to represent the sound of landing. As well as an armor multi instrument with lowered spawn rate.
+
+Surface Grass: Grass
+Surface Rock: Rock
+Surface Metal: Metal</value>
+		</property>
 		<property name="color">
 			<value>Green</value>
 		</property>

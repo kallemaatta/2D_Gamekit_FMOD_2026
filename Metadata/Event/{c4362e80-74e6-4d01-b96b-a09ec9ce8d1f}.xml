@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{c4362e80-74e6-4d01-b96b-a09ec9ce8d1f}">
+		<property name="note">
+			<value>One-shot event created with a synthesizer to create a boss laser attack.</value>
+		</property>
+		<property name="color">
+			<value>Purple Light 1</value>
+		</property>
 		<property name="name">
 			<value>BossLaser</value>
 		</property>

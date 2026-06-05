@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{d5e3d4ef-4a6b-4baa-9dfa-25495a0edd98}">
+		<property name="note">
+			<value>Two seperate locations of looping ambiances using magnet regions and looping regions. Both take part of a automated WindTransition, as well as a WindStrength parameter. Inside Ambiance also uses a InsideCaveSnapshot.
+
+WeakWind: 0-0.3
+MediumWind: 0.2-0.55
+StrongWind: 0.45-1
+
+Location: 0 = Outside
+Location: 1 = Inside</value>
+		</property>
 		<property name="color">
 			<value>Blue</value>
 		</property>

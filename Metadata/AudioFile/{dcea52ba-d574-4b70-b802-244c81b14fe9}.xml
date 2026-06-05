@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{dcea52ba-d574-4b70-b802-244c81b14fe9}">
 		<property name="assetPath">
-			<value>Elias+KalleLjud/StenarMotStenar_008.wav</value>
+			<value>Foley/Stone/StenarMotStenar_008.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

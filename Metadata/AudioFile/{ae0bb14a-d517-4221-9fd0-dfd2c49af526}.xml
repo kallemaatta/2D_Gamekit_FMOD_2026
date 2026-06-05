@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{ae0bb14a-d517-4221-9fd0-dfd2c49af526}">
 		<property name="assetPath">
-			<value>Elias+KalleLjud/RandomKrasch_004.wav</value>
+			<value>Foley/Wood/RandomKrasch_004.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

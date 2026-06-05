@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{f02d8a9c-9ef2-4d19-9f61-959f011dd103}">
 		<property name="assetPath">
-			<value>Elias+KalleLjud/ChomperWalk_002.wav</value>
+			<value>Foley/Footsteps/ChomperWalk_002.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

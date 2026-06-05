@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{6089ad5b-b9a3-4e13-a290-16d48dfca312}">
+		<property name="note">
+			<value>A one-shot event using a parameter to decide which sound plays. A synthesizer was used to create the sound of steam.
+
+0: No steam
+1: Medium steam
+2: Heavy steam</value>
+		</property>
+		<property name="color">
+			<value>Purple Light 1</value>
+		</property>
 		<property name="name">
 			<value>BossSteam</value>
 		</property>

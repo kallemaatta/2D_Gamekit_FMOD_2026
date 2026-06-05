@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{23c1d9b3-7034-4079-bf14-34175153519e}">
-		<property name="note" />
+		<property name="note">
+			<value>A layered one-shot event to represent the dying animation of the boss. Using a synthesizer and glass to create the sequence.</value>
+		</property>
+		<property name="color">
+			<value>Purple Light 1</value>
+		</property>
 		<property name="name">
 			<value>BossDie</value>
 		</property>

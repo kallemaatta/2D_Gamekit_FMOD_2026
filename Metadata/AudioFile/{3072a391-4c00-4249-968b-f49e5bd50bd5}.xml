@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{3072a391-4c00-4249-968b-f49e5bd50bd5}">
 		<property name="assetPath">
-			<value>Elias+KalleLjud/GrusFall_001.wav</value>
+			<value>Foley/DragingSounds/GrusFall_001.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

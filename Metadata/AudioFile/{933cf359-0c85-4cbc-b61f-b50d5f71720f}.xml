@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{933cf359-0c85-4cbc-b61f-b50d5f71720f}">
 		<property name="assetPath">
-			<value>Elias+KalleLjud/MetallMotMetallHit_006.wav</value>
+			<value>Foley/Metal/MetallMotMetallHit_006.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

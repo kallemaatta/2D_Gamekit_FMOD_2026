@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{59318ab1-9bec-4891-b59d-3e73da17d2c5}">
+		<property name="note">
+			<value>One-shot event using multi instruments of  footsteps on different surfaces to represent different materials.
+
+Surface Grass: Grass
+Surface Rock: Rock
+Surface Metal: Metal</value>
+		</property>
 		<property name="color">
 			<value>Green</value>
 		</property>

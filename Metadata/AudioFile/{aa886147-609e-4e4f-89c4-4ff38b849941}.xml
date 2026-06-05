@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{aa886147-609e-4e4f-89c4-4ff38b849941}">
 		<property name="assetPath">
-			<value>Foley/DragLjud/StenMotStenCut_009.wav</value>
+			<value>Foley/DragingSounds/StenMotStenCut_009.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

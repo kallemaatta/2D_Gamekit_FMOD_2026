@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{a8bd1cb8-0cd9-4860-9ea7-0c9b508246e4}">
+		<property name="note">
+			<value>A one-shot event of metal hitting metal to represent the boss walking. Distortion, flanger and compression is used in the sound. Randomization of pitch is also used for variation.</value>
+		</property>
+		<property name="color">
+			<value>Purple Light 1</value>
+		</property>
 		<property name="name">
 			<value>BossWalk</value>
 		</property>

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{7e62343e-1d19-4847-aa50-d587e84d140e}">
 		<property name="assetPath">
-			<value>Laserskott.wav</value>
+			<value>Foley/Misc/Laserskott.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

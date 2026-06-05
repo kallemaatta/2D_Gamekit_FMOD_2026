@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{f3463d0d-3e51-4fdb-b2c0-bba5e9628927}">
+		<property name="note">
+			<value>Two one-shot events used with a parameter to decide which one is used. The synthesizer sound is the same just reversed for the ShieldUp event.</value>
+		</property>
+		<property name="color">
+			<value>Purple Light 1</value>
+		</property>
 		<property name="name">
 			<value>BossShield</value>
 		</property>

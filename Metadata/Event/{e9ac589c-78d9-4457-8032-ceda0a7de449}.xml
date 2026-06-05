@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{e9ac589c-78d9-4457-8032-ceda0a7de449}">
 		<property name="note">
-			<value>One-shot event of a switch using a synth.</value>
+			<value>One-shot event of a switch using a synth. Created as sort of a stinger.</value>
 		</property>
 		<property name="color">
 			<value>Red</value>

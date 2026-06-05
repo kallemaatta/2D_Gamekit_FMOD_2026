@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{c5e4a75d-4feb-4c1a-9e5c-532d340c94cd}">
 		<property name="assetPath">
-			<value>Foley/Stenljud/StenljudMenuButton_003.wav</value>
+			<value>Foley/Stone/StenljudMenuButton_003.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

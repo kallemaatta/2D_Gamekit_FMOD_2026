@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{27720fa1-6956-4d39-929d-a489ba5facb4}">
 		<property name="assetPath">
-			<value>Foley/BossLjud/ShieldDownBoss.wav</value>
+			<value>Foley/Boss/ShieldDownBoss.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

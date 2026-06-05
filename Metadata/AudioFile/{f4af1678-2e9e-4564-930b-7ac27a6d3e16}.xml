@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{f4af1678-2e9e-4564-930b-7ac27a6d3e16}">
 		<property name="assetPath">
-			<value>Elias+KalleLjud/TungaFotstegMetall_007.wav</value>
+			<value>Foley/Footsteps/TungaFotstegMetall_007.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

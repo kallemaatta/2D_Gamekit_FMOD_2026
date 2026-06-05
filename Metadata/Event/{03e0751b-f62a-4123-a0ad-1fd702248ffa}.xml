@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{03e0751b-f62a-4123-a0ad-1fd702248ffa}">
 		<property name="note">
-			<value>One-shot event using vocalizations to create a chomper melee attack sound. Effects used are EQ, distortion and flanger.</value>
+			<value>One-shot event using vocalizations to create a chomper melee attack sound. Effects used are EQ, distortion and flanger. Randomization for variation.</value>
 		</property>
 		<property name="color">
 			<value>Cyan</value>
@@ -283,7 +283,7 @@
 			<value>-10</value>
 		</property>
 		<property name="highGain">
-			<value>-10</value>
+			<value>-19</value>
 		</property>
 	</object>
 	<object class="DistortionEffect" id="{c8db8d0c-0422-4371-9438-a95fcea2d023}">
